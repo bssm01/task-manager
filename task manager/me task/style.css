@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(208, 184, 231);
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#task-input{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 780px;
+}
+#add-task-btn{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+}
+.task-item{
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: bisque;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.dlt-btn{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+        margin-left: 22px;
+}
+.edt-btn{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 22px;
+}
